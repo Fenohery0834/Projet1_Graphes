@@ -120,7 +120,7 @@ def visualiser(graphe, n, classification, titre="Graphe aleatoire G(n, p)"):
 
     plt.rcParams["toolbar"] = "None"
 
-    # Construction du graphe networkx
+    # Construction du graphe 
     G = nx.Graph()
     G.add_nodes_from(range(n))
     for i in range(n):
