@@ -17,10 +17,10 @@ def generer_graphe(n, p):
     # Parcours de toutes les paires (i, j) avec i < j
     for i in range(n):
         for j in range(i + 1, n):
-            tirage = random.random()        # uniforme dans [0.0, 1.0)
+            tirage = random.random()       
             if tirage < p:
-                graphe[i].append(j)         # ajout symetrique
-                graphe[j].append(i)         # graphe non oriente
+                graphe[i].append(j)        
+                graphe[j].append(i)      
 
     return graphe
 
