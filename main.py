@@ -30,7 +30,7 @@ def saisir_n():
         try:
             n = int(saisie)
         except ValueError:
-            print("  Erreur : '" + saisie + "' n'est pas un entier valide.")
+            print("  Erreur : '" + saisie + "' Ce n'est pas un entier valide.")
             continue
         if n < 2:
             print("  Erreur : n doit etre >= 2  (recu : " + str(n) + ").")
